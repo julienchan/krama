@@ -1,0 +1,12 @@
+import "vector" as V
+
+export define factorial n =
+  # compute factorial
+  match n with
+    case 0   then n
+    case 1   then 1
+    case any then n * factorial (n - 1)
+
+export define computed-expressin xs = do maybe
+  bind ix <- V.find-index "item" xs
+  action V.get xs ix

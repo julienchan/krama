@@ -1,0 +1,21 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+lib/parser.js
+coverage
+
+# dependencies
+node_modules
+bower_components
+
+# misc
+/.vscode
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+spec-bundle.js
+npm-debug.log
+testem.log
